@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wikifootball</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Main css -->
+    <link rel='stylesheet' href='home_page.css' >
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <!-- Simple line icon -->
+    <link rel="stylesheet" href="../static/css/simple-line-icons.css">
+    <!-- Themify Icon -->
+    <link rel="stylesheet" href="../static/css/themify-icons.css">
+
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+</head>
+<body> 
+    <script src = 'home_page.js'></script>
+    <script>
+            AOS.init();
+          </script>
+    <div id= "bg-img" >
+            <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success d-flex sticky-top">
+            <a class="navbar-brand text-center text-bold" href="home_page.html">WIKIFOOTBALL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Team of the week</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    
+                  </div>
+
+        </nav>
+        <!-- TEXT  -->
+        <div class='container'>
+            <div class = 'd-flex row justify-content-center'>
+                <div class = 'col-md-12'>
+                    <div class = 'slider-title_box'>
+                        <div class = 'row'>
+                            <div class = 'col-md-12'>
+                                <div>
+                                    <h1>Search all your favorite football players here!</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = 'row d-flex justify-content-center'>
+                            <div class = 'col-md-12'>
+                                <form method = 'POST' class = 'form-wrap mt-4'>
+                                    <div class = 'btn-group' role='group' aria-label="Basic Example">
+                                        <input name = 'title' type = 'text' placeholder="Enter the name of the footballers" class='btn-group1 col-md-10 black-border'/>
+                                        <button type='submit' class='btn-form'>
+                                            <span class = 'icon-magnifier search-icon '>
+                                                
+                                            </span>  
+                                            Search
+                                            <i class = 'pe-7s-angle-right' ></i>  
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class='footer bg-success d-flex'></div>
+
+    </div>
+        
+        
+        
+
+          
+</html>
